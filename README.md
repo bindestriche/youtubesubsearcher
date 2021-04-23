@@ -5,12 +5,15 @@ In what video did your favourite youtube person use a certain word? Now you can 
 
 ## Step1 Build a collection of youtube subtitles
 
-the search scripts expects a collection of srt clean subtitles.
+the search scripts expect a collection of srt clean subtitles.
+you can use *collect_subs.py* for this.
+`python collect_subs.py {URL}`
+the URL can be anything that youtube-dl can get subtitles from. e.g. youtube channel,youtube-playlist, or just a single video.
+ the default option right now is to download all subtitles, consider changing them to you need eg `'--write-auto-sub', '--sub-lang', 'en', `
 
-## download the subtitles
 
 ### manually
-
+#### external services
 [downsub.com](https://downsub.com/) gives you clean srt subtitles from youtube videos right away.
 
 ### youtube-dl
