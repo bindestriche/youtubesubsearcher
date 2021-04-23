@@ -5,7 +5,7 @@ In what video did your favourite youtube person use a certain word? Now you can 
 
 ## Step1 Build a collection of youtube subtitles
 
-the search scripts expect a collection of srt clean subtitles.
+the search scripts expects a collection of srt clean subtitles.
 
 ## download the subtitles
 
@@ -25,8 +25,8 @@ We use ffmpeg to convert .vtt subtitles to .srt.
 *usage*
 `./ffmpeg -i '{vtt-FILE}.vtt' '{SRT-FILE}.srt'`
 
-you can use the convert_to_srt_local.ps1 powershell to convert serveral subtitles in an automated way.
-place the scrip in a folder with .vtt subs and ffmpeg.exe, then execute the script.
+you can use the convert_to_srt_local scripts to convert serveral subtitles in an automated way.
+place the script in a folder with .vtt subs and ffmpeg.exe, then execute the script.
 
 ## subtitle-overlap-fixer
 When you download youtube subtitles with youtube-dl and convert them to .srt using ffmpeg, the subtitles have overlap and double lines.
