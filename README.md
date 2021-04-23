@@ -42,3 +42,19 @@ This [go script from nimatrueway](https://gist.github.com/nimatrueway/4589700f49
 
 *usage*
 `./subtitle-overlap-fixer '{SRT-FILE}.srt'`
+
+
+## Step2 search collection of youtube subtitles
+
+have the module 'fuzzywuzzy' installed `pip install fuzzywuzzy`
+
+*use*
+'`python listsearch.py' ['term1','term2']`
+
+*output*
+a search results.csv link goes directly to video with time where the line with the term is said.
+
+resline,id,duration,resurl
+Line with term1,XXXXXXXXXXX,"00:06:49,199 --> 00:06:51,810",https://youtu.be/XXXXXXXXXXX?t=409
+
+
