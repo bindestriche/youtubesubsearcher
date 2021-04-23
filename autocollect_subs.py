@@ -45,9 +45,9 @@ if len(argv)==1:
 if len(argv)==2:
     url = argv[1]
 
-# you can change the naming convention of the files as long as the file endings stay at the end ".%(ext)s' "   
+# you can change the naming convention of the files as long as the file endings stay at the end"   
 # consider changing the download options of the subtitles eg ' '--write-auto-sub', '--sub-lang', 'en', ' 
-callline=[path_youtube_dl, '--write-auto-sub', '--all-subs', '--sub-format', 'vtt', '--skip-download', '-o', "'%(upload_date)s-%(uploader_id)s-%(id)s.%(ext)s'", '--write-info-json', '--skip-download',url]
+callline=[path_youtube_dl, '--write-auto-sub', '--all-subs', '--sub-format', 'vtt', '--skip-download', '-o', "%(upload_date)s-%(uploader_id)s-%(id)s", '--write-info-json', '--skip-download',url]
 
     
 
