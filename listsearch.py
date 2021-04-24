@@ -79,7 +79,7 @@ with open(outputfilename, 'w', newline='',encoding='utf-8') as csvfile:
     headline = ['resline', 'id', 'duration', 'resurl' ]
     writer.writerow(headline)
 
-    for filename in glob.glob(srt_fixed+'/*.srt')[:50]:
+    for filename in glob.glob(srt_fixed+'/*.srt'):
 
         with open(filename, "r",encoding='utf-8') as srt_file:
             srtlistmatch(filename, searchlist,writer)
