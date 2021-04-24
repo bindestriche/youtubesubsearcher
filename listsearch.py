@@ -17,10 +17,10 @@ srt_fixed='srt_fixed' # folder with srt files
 
 
 if len(argv)==1:
-    searchlist = input("please provide python list of strings : ['term1','term2']")
+    searchlist = input("please provide commaspeprated list of searchtemrs : term1,term2:\n").split(',')
 
 if len(argv)==2:
-    searchlist = argv[1]
+    searchlist = argv[1].split(',')
 
 
 
