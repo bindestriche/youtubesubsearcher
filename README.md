@@ -49,7 +49,7 @@ This [go script from nimatrueway](https://gist.github.com/nimatrueway/4589700f49
 have the module 'fuzzywuzzy' installed `pip install fuzzywuzzy`
 
 **use**
-'`python listsearch.py' ['term1','term2']`
+'`python listsearch.py' term1,term2
 
 **output**
 a *search results.csv* link goes directly to video with time where the line with the term is said.
