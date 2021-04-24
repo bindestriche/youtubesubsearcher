@@ -46,10 +46,20 @@ This [go script from nimatrueway](https://gist.github.com/nimatrueway/4589700f49
 
 ## Step2 search collection of youtube subtitles
 
+### listfind.py
+uses find to search in srt lines. expects a folder *srt_fixed* as a subfolder (as produced by*autocollect_subs.py* )
+
+`'python listsearch.py' term1,term2`
+or just run `'python listsearch.py' and enter the search terms manually
+
+
+### listsearch.py
+
+uses fuzzymatching for finding words
 have the module 'fuzzywuzzy' installed `pip install fuzzywuzzy`
 
 **use**
-'`python listsearch.py' term1,term2
+`'python listsearch.py' term1,term2`
 
 **output**
 a *search results.csv* link goes directly to video with time where the line with the term is said.
