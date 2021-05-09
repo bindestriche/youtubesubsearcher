@@ -69,7 +69,7 @@ resline,id,duration,resurl
 Line with term1,XXXXXXXXXXX,"00:06:49,199 --> 00:06:51,810",https://youtu.be/XXXXXXXXXXX?t=409
 
 ### Other Tools
-The Sofware [AntConc](http://www.laurenceanthony.net/software/antconc/) is a greatis Concordance Tool, it might be usefull to for deeper analysis.
+The Sofware [AntConc](http://www.laurenceanthony.net/software/antconc/) is a gratis Concordance Tool, it might be usefull to for deeper analysis. you can use mae txt.py to convert the fixed srt subtitles to txt files for corpus analysis.
 More tools https://corpus-analysis.com/
 
 
