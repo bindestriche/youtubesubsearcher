@@ -1,5 +1,5 @@
 # youtubesubsearcher
-scripts to search in a collection youtube subtitles. 
+scripts to search in a collection of youtube subtitles. 
 In what video did your favourite youtube person use a certain word? Now you can find out without going through their videos manually.
 
 
