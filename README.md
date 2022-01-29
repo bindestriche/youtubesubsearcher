@@ -11,7 +11,7 @@ the URL can be anything that youtube-dl can get subtitles from. e.g. youtube cha
  the default option right now is to download all subtitles, consider changing them to you need eg `'--write-auto-sub', '--sub-lang', 'en', `
  
 ### setup
-Windows10 64bit, making it work for othr platfrom should only require minimum efford though, Python 3.x installed.
+Windows10 64bit, making it work for other platfrom should only require minimum efford though, Python 3.x installed.
 
 All of these files in the same folder as the *autocollect_subs.py* script:
  * [ffmpeg.exe](https://ffmpeg.org/download.html)
