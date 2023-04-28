@@ -1,6 +1,6 @@
 import os
 
-from fuzzywuzzy import process
+from rapidfuzz import process
 #converts all youtube-dl json in current folder into one csv file
 import os
 import glob as glob
