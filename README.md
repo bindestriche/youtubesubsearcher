@@ -24,8 +24,9 @@ All of these files in the same folder as the *autocollect_subs.py* script:
 [downsub.com](https://downsub.com/) gives you clean srt subtitles from youtube videos right away.
 
 ### youtube-dl and ffmpeg
-Youtube-dl can downlaod subtitles in batches for us.
+Youtube-dl can download subtitles in batches for us.
  `./youtube-dl --write-auto-sub --sub-lang de --sub-format vtt --skip-download [channel or playlist URL] -o "%(upload_date)s-%(id)s.%(ext)s"`
+yt-dlp is a fork of YouTube-dl that works better, the command is the same , just start with yt-dlp.
   
 this gives us a collection of vtt files.
 
@@ -38,7 +39,8 @@ place the script in a folder with .vtt subs and ffmpeg.exe, then execute the scr
 
 ### subtitle-overlap-fixer
 When you download youtube subtitles with youtube-dl and convert them to .srt using ffmpeg, the subtitles have overlap and double lines.
-This [go script from nimatrueway](https://gist.github.com/nimatrueway/4589700f49c691e5413c5b2df4d02f4f) fixes that.
+the subtitle over lap fixer takes care of that. code is based on this [go script from nimatrueway](https://gist.github.com/nimatrueway/4589700f49c691e5413c5b2df4d02f4f).
+the tk inter gui asks for an input and end out but folder.
 
 *usage*
 `./subtitle-overlap-fixer '{SRT-FILE}.srt'`
